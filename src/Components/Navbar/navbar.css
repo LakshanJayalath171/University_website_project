@@ -1,0 +1,30 @@
+nav{
+  width: 100%;
+  /* background: #2b2c34; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.dark-nav{
+  background: #212EA0;
+  transition: 0.4s;
+}
+
+.logo{
+  width: 180px;
+}
+
+nav ul li{
+  margin: 5px 20px;
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
+  cursor: pointer;
+}
